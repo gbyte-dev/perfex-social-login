@@ -1,0 +1,359 @@
+  
+
+.allow-network ul{
+	margin: 0px;
+	padding: 0px;
+}
+.allow-network ul li:first-child{
+	margin-left:0px;
+}
+.allow-network ul li{
+	list-style-type: none;
+	display: inline-block;
+    margin-left:5px;
+}
+
+.thank-you-page {
+    background-color: #fff;
+}
+span.astric{
+	color: #dd4b39;
+}
+
+.signup-box-body ul.nav.nav-pills.nav-stacked{
+	background: #3c8dbc;
+	border-radius: 10px;
+}
+.signup-box-body ul.nav.nav-pills.nav-stacked li h2{
+	color: #3c8dbc;
+}
+
+.signup-box-body .nav-stacked>li.active>a, .nav-stacked>li.active>a:hover{
+
+}
+.signup-box-body ul.nav.nav-pills.nav-stacked a{
+	color:#ffffff;
+	border-left:0px;
+}
+.signup-page .box-body {
+    padding: 15px 30px 20px !important;
+}
+
+
+.signup-error {
+	width: 90%;
+	margin:20px auto; 
+}
+.login-link{
+	display: block;
+	margin-bottom: 20px;
+	clear: both;	 
+}
+.plan-preview-container{
+	width: 72%;
+    margin: 20px auto;
+}
+
+.plan-preview-container h3,.plan-preview-container h2 {
+    margin: 0;
+}
+
+.plan-preview-container .nav-pills>.active>a>.badge{
+	color: #000;
+}
+.signup-box-body li.active .badge .day-lable{
+	color: #3c8dbc;
+}
+.signup-box-body li.active .badge{
+	width: 158px;
+    display: flex; 
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+}
+
+.add-member-form .box-header,
+.add-member-form .box-body {padding: 15px;}
+
+.sap_plan-radio {margin-bottom: 10px !important;}
+.login-page, .register-page{ background-color: transparent; }
+
+
+/******** 17-6-2021 ********/
+.add-member-form {position: relative;}
+.add-member-form .box-header {padding: 10px 15px;}
+.add-member-form .box-header .box-title {font-size: 27px;font-weight: 700;text-align: center;width: 100%;text-transform: uppercase;}
+.add-member-form .box-body .form-group {margin-bottom: 25px;}
+.add-member-form .box-body .form-group label.col-sm-4.col-md-3,
+.add-member-form .box-body .form-group .col-sm-8.col-md-9 {width: 100%;}
+.add-member-form .box-body .form-group .form-check {width: 49%;display: inline-block;padding: 0 15px 0 0;margin-top: 5px;}
+.add-member-form .plan-preview-container {width: 100%;margin: 0;padding: 0 15px;}
+.login-link {font-weight: 600;font-size: 20px;margin: 0;}
+.add-member-form .box-body .form-group label{font-size: 16px;margin-bottom: 10px;}
+.add-member-form .box-body .form-group .gateway_checkbox .form-check {width: 20%;}
+
+
+.plan-preview-container .table tr th:first-child,
+.plan-preview-container .table tr td:first-child {width: 30%;}
+
+.add-member-form .box-body .form-group .form-check .form-check-label {padding-left: 5px;}
+.backtologin {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.login-logo-inner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+@media screen and (min-width:1025px){
+	.login-box, .register-box {
+	    width: 530px;
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	    justify-content: center;
+	    margin: 0 auto;
+	}
+	.signup-box{
+	    width: 920px;
+	    display: flex;
+	    flex-direction: column;
+	    align-items: center;
+	    justify-content: center;
+	    margin: 0 auto;
+	    padding-top: 50px;
+	    padding-bottom: 50px;
+	}
+	
+	.signup-box-body {
+		margin: 0;
+		width: 100%;
+	}
+
+	
+}
+
+.gateway_checkbox .form-check{
+	display: inline-block;
+    margin-right: 10px;
+}
+
+
+/******** 17-6-2021 ********/
+@media screen and (max-width:767px){
+.add-member-form .box-body .form-group .gateway_checkbox .form-check {width: 20%;}
+    .thank-you-box p.thank_you_msg { font-size: 18px; margin: 10px 0 10px; }
+    .thank-you-box div#plan_result { overflow: scroll; }
+    .thank-you-box .signup-box-body .box-header h3.box-title{ line-height: normal  !important; }
+    .thank-you-box .login-box { padding-left: 0; padding-right: 0; }
+}
+
+@media screen and (max-width:575px){
+.add-member-form .box-body .form-group .form-check,
+.add-member-form .box-body .form-group .gateway_checkbox .form-check {width: 100%;}
+
+}
+
+/*A 06-12-2023*/
+.login-box-wrap {
+    background: url(../images/mingle-shape.png) no-repeat;
+    background-position: right bottom;
+}
+
+.h-100 { height: 100vh; }
+.bg-plum-plate { background: linear-gradient(30deg, #277CF3 13.34%, #1B5DF4 59.78%, #1651F5 86.57%); }
+.login-box, .register-box { display: flex; flex-direction: column;   justify-content: center; height: 100%; padding-top: 0; width: 100%; align-items: flex-start; }
+
+.login-logo img, .register-logo img {  /*margin-left: 0;filter: brightness(0) saturate(100%) invert(33%) sepia(55%) saturate(4210%) hue-rotate(211deg) brightness(98%) contrast(94%); */}
+.login-box .login-logo p { color: #216cf3 ;}
+.bg-white { background-color: #fff; }
+.login-box { max-width: 560px;margin: 0;  width: 100%; margin-left: 80px; }
+.login-box-body { margin: 0; width: 100%; }
+.login-box-body, .register-box-body { box-shadow: none; border: none; padding: 0; }
+.login-box h4.login-text {
+    color: var(--Blue, #1958F4);
+    font-family: "Source Sans Pro";
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0 0 50px;
+    text-align: left;
+}
+
+.login-box h4.login-text span {
+    color: var(--Gray, #838383);
+    font-family: "Source Sans Pro";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: block;
+}
+
+.forgot-password {
+    text-align: right;
+    margin-bottom: 40px;
+}
+
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #000;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.form-control {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #d2d6de;
+    border-radius: 6px;
+    border: 1px solid var(--blue-gray-300, #CBD5E1);
+    background: var(--blue-gray-50, #F8FAFC);
+    font-size: 18px;
+    padding: 16px 20px;
+    height: auto;
+}
+
+.btn.btn-primary {
+    background-color: #3c8dbc;
+    border-color: #367fa9;
+    border-radius: 9px;
+    background: var(--blue-600, #2563EB);
+    color: var(--base-white, #FFF);
+    text-align: center;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.2px;
+}
+
+.btn.btn-primary { 
+    border-radius: 9px;
+    background: var(--blue-600, #2563EB);
+    color: var(--base-white, #FFF);
+    text-align: center;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.2px;
+    padding: 12px 20px 13px;
+    min-width: 140px;
+}
+
+.btn.btn-primary:hover {
+	background-color: #2563EB;
+    border-color: #2563EB;
+    opacity: 0.8;
+}
+
+a {
+    color: var(--Blue, #1958F4);
+    text-align: right;
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sign-in-btn .col-xs-4 {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+}
+
+.sign_up-right {
+    color: #838383;
+    font-family: "Source Sans Pro";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.sign_up-right a {
+	color: var(--Blue, #1958F4);  
+	font-weight: 600; 
+}
+ 
+
+.forgot-password form {
+    flex-direction: column;
+    text-align: left;
+}
+
+ 
+
+.signup-page { background-color: #fff; }
+.signup-page img.mingle-logo { filter: none; margin: 0 auto 20px; max-width: 100%; }
+.login-link { color: #3f6ad8; }
+.login-logo-inner { display: flex; align-items: center; justify-content: center; height: 100vh; }
+.bg-green, .callout.callout-success, .alert-success, .label-success, .modal-success .modal-body{
+	background-color: rgb(0 166 90 / 51%) !important;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.signup-box { align-items: center; padding: 0;
+    justify-content: center; }
+
+/*thank you page */
+.thank-you-box p.thank_you_msg {
+    color: #fff;
+    font-size: 28px;
+    margin-top: 30px;
+}
+.thank-you-box  .login-btn-wrap  { background-color: transparent; }
+.thank-you-box  .login-box { max-width: 720px; }
+.thank-you-box #plan_result th { font-weight: 600; color: #111; }
+.thank-you-box #plan_result th, .thank-you-box #plan_result td { padding: 11px 25px !important; }
+
+@media only screen and (max-width: 1199px) and (min-width: 1025px) {
+	.signup-flex .d-lg-block.col-lg-4.bg-plum-plate { width: 100%; }
+	.signup-flex .login-logo-inner { height: auto; padding: 50px 0; }
+}
+@media (min-width: 1025px){
+	.signup-flex{ display: flex;flex-wrap: wrap; }
+}
+
+@media (max-width:1024px) {
+	.signup-box-body { width: 100%; padding-left: 15px; padding-right: 15px; }
+	.login-logo-inner { height: auto; }
+	.login-page .d-lg-block.col-lg-4.h-100.bg-plum-plate { height: auto; }
+	.login-box { padding-top: 50px; }
+    .h-100 { height: auto; }
+    .login-logo-inner { padding-top: 30px; }
+    .login-box-body form >div { width: 100%; }
+    .mingle-logo { width: 200px; }
+    .login-box h4.login-text { font-size: 31px; margin-bottom: 30px; }
+    .login-box { margin-left: 0; padding-left: 15px; padding-right: 15px;}
+
+
+}
+@media (max-width: 991px){
+	.signup-box { padding: 30px 0; }
+}
+@media (max-width: 767px){
+	.signup-page .box-body{ padding: 15px 15px 20px !important; margin-bottom: 50px; }
+	.signup-box { padding-top: 50px; padding-bottom: 50px;}
+
+}
